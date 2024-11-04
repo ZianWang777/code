@@ -10,3 +10,11 @@ set A 0,
 set B 1,
 eval,
 output;
+set A 1,
+set B 0,
+eval,
+output;
+set A 1,
+set B 1,
+eval,
+output;
