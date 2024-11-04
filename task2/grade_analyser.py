@@ -59,7 +59,7 @@ for line in reader:
     average=sum/number
     cl=classification(average)
     output.append(f"{id},{f"{average:.2f}"},{cl}")
-with open(f"{file_name}",'w') as outfile:
+with open(out_file_name,'w') as outfile:
     for i in output:
         outfile.write(f"{i}\n")
      
