@@ -2,7 +2,7 @@ CHIP A5Q1 {
     IN x, y;
     OUT out;
     PARTS:
-    NOT(in=x, out=notA);        
-    OR(a=notA, b=y, out=orOut);  
-    NOT(in=orOut, out=out);  
+    Not(in=x, out=notA);        
+    Or(a=notA, b=y, out=orOut);  
+    Not(in=orOut, out=out);  
 }
