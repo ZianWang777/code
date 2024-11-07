@@ -52,6 +52,7 @@ for line in reader:
     grades=row[1:]
     sum=0
     number=0
+    average=0.0
     for i in grades:
         if not i=='' and not i=='\n':
             sum+=int(i)
